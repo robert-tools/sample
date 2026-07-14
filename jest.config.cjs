@@ -11,11 +11,8 @@ module.exports = {
         },
       ],
     },
-    moduleNameMapper: {},
     testEnvironment: 'jsdom',
-    setupFilesAfterEnv: [
-        // '<rootDir>/src/backend/_shared/test_lib/customMatcher/toContainItem/toContainItem.ts'
-    ],
+    setupFilesAfterEnv: [],
     collectCoverage: true,
     collectCoverageFrom: [
       'src/**/*.{ts,tsx}',
@@ -33,3 +30,4 @@ module.exports = {
     ],
     coverageReporters: ['json', 'json-summary', 'lcov', 'text'],
   };
+
