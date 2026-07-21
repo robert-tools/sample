@@ -1,6 +1,6 @@
 import { sample } from './index';
 
-describe('@robert.tools/<name>', () => {
+describe('@robert.tools/sample', () => {
     it('should return a <name> string', () => {
         expect(sample('hello')).toBe('sample: hello');
     });

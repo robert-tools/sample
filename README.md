@@ -1,17 +1,17 @@
-# @robert.tools/<name>
+# @robert.tools/sample
 
 <description>
 
 ## Installation
 
 ```bash
-npm install @robert.tools/<name>
+npm install @robert.tools/sample
 ```
 
 ## Usage
 
 ```typescript
-import { <name> } from '@robert.tools/<name>';
+import { <name> } from '@robert.tools/sample';
 
 <name>('hello'); // '<name>: hello'
 ```
