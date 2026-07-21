@@ -1,7 +1,7 @@
 {
-    "name": "@robert.tools/sample",
+    "name": "@robert.tools/<name>",
     "version": "1.0.0",
-    "description": "A sample package",
+    "description": "<description>",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "exports": {
@@ -19,20 +19,20 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/robert-tools/sample.git"
+        "url": "git+https://github.com/robert-tools/<name>.git"
     },
     "bugs": {
-        "url": "https://github.com/robert-tools/sample/issues"
+        "url": "https://github.com/robert-tools/<name>/issues"
     },
-    "homepage": "https://github.com/robert-tools/sample#readme",
+    "homepage": "https://github.com/robert-tools/<name>#readme",
     "keywords": [
         "typescript",
         "node",
-        "sample",
+        "<name>",
         "robert.tools"
     ],
-    "author": "Robert Willemelis",
-    "license": "MIT",
+    "author": "<author>",
+    "license": "<license>",
     "engines": {
         "node": ">=22"
     },
