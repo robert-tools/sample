@@ -17,5 +17,6 @@ import { <name> } from '@robert.tools/sample';
 ```
 
 ## commands
+After an npm install with `npm i` the following commands are available:
 * initialize placeholders: `npm run init <semantic>`
 * release a new version: `npm run release <semantic>`
