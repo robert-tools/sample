@@ -11,7 +11,8 @@
         "dist"
     ],
     "scripts": {
-        "init": "robert-tools-init .",
+        "init": "robi init",
+        "release": "robi release",
         "build": "tsc -p tsconfig.build.json",
         "test": "jest --coverage --runInBand --verbose",
         "lint": "eslint .",
@@ -42,7 +43,7 @@
         "registry": "https://registry.npmjs.org/"
     },
     "devDependencies": {
-        "@robert.tools/setup": "^1.0.2",
+        "@robert.tools/setup": "^1.1.1",
         "@types/jest": "^29.5.14",
         "@types/node": "^24.0.0",
         "@typescript-eslint/eslint-plugin": "^8.0.0",
