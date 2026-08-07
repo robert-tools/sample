@@ -15,3 +15,7 @@ import { <name> } from '@robert.tools/sample';
 
 <name>('hello'); // '<name>: hello'
 ```
+
+## commands
+* initialize placeholders: `npm run init <semantic>`
+* release a new version: `npm run release <semantic>`
