@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.10
+
+### ⚙️ chore
+
+- npm-task:test - deactivate watchman (blocked by system guard of virus scanner)
+
 ## 1.1.9
 
 ### ⚙️ chore
